@@ -1,0 +1,190 @@
+@import url(https://fonts.googleapis.com/css?family=Dosis:700,600);
+header .world {
+    background-image: url(../img/world.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100px;
+}
+
+header .title {
+    background-image: url(../img/line.png);
+    background-repeat: no-repeat;
+    height: 87px;
+    padding-top: 22px;
+    margin-top: -120px;
+}
+
+header .title .container {
+    background: url(../img/daisy.png) left center no-repeat, 
+ 	url(../img/daisy.png) right center no-repeat, 
+ 	transparent;
+ 	background-size: 55px 55px;
+    height: 85px;
+}
+.container {
+    max-width: 1024px;
+}
+@media (min-width: 1200px)
+.container {
+    width: 1170px;
+}
+@media (min-width: 992px)
+.container {
+    width: 970px;
+}
+@media (min-width: 768px)
+.container {
+    width: 750px;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container h1{
+	font-size: 18px;
+	font-family: 'Dosis', sans-serif;
+	font-weight: bold;
+}
+
+.container h1 b{
+	font-size: 18px;
+	font-family: 'Dosis', sans-serif;
+	font-weight: bold;
+}
+
+.title .container h1{
+	margin-top: 23px; 
+}
+
+.box {
+	max-width: 213px;
+	height: 213px;
+	background: #030f4a;
+	box-shadow: inset 0px 0px 10px 8px rgba(0,0,0,0.3);
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+.box-link {
+	text-align: center;
+	display: block;
+	width: 100%;
+	height: 100%;
+	padding-top:30px;
+	color: white;
+	font-size: 30px;
+}
+
+.box-link:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.box a{
+	text-decoration: none;
+	font-family: 'Dosis', sans-serif;
+	font-weight: bold;
+}
+
+.index{
+	background-color: #0c2f80;
+}
+
+.box .icon {
+	display: block;
+	height: 110px;
+	box-sizing: inherit;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.icon-akrep {
+	background-image: url(../img/akrep.png);
+}
+.icon-aslan {
+	background-image: url(../img/aslan.png);
+}
+.icon-balik {
+	background-image: url(../img/balik.png);
+}
+.icon-basak {
+	background-image: url(../img/basak.png);
+}
+.icon-boga {
+	background-image: url(../img/boga.png);
+}
+.icon-ikizler {
+	background-image: url(../img/ikizler.png);
+}
+.icon-koc {
+	background-image: url(../img/koc.png);
+}
+.icon-kova {
+	background-image: url(../img/kova.png);
+}
+.icon-oglak {
+	background-image: url(../img/oglak.png);
+}
+.icon-terazi {
+	background-image: url(../img/terazi.png);
+}
+.icon-yay {
+	background-image: url(../img/yay.png);
+}
+.icon-yengec {
+	background-image: url(../img/yengec.png);
+}
+
+.list .item.item-accordion {
+  line-height: 25px !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  transition: 0.3s all linear !important;
+}
+.list .item.item-accordion.ng-hide {
+  line-height: 0px !important;
+}
+.list .item.item-accordion.ng-hide-add,
+.list .item.item-accordion.ng-hide-remove {
+  display: block !important;
+}
+
+.list{
+	margin-bottom: 50px;
+}
+
+.parag{
+	text-align: center; 
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 6px;
+}
+
+.item{
+	border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    background-color: rgb(4, 19, 81);
+}
+
+.dikey{
+	background-color: white;
+	border: none;
+	word-wrap: break-word !important;      /* IE 5.5-7 */	
+	white-space: -moz-pre-wrap !important; /* Firefox 1.0-2.0 */
+    white-space: pre-wrap !important;      /* current browsers */
+}
+
+.dikey p{
+	color: black;
+	word-wrap: break-word !important;      /* IE 5.5-7 */	
+	white-space: -moz-pre-wrap !important; /* Firefox 1.0-2.0 */
+    white-space: pre-wrap !important;      /* current browsers */
+}
+
+.yorum.ng-binding{
+	margin-top: -30px;
+}

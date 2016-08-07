@@ -1,0 +1,64 @@
+.box {
+	max-width: 213px;
+	height: 213px;
+	background: #030f4a;
+	box-shadow: inset 0px 0px 10px 8px rgba(0,0,0,0.3);
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+.box-link {
+	text-align: center;
+	display: block;
+	width: 100%;
+	height: 100%;
+	padding-top:30px;
+	color: white;
+	font-size: 30px;
+}
+.box-link:hover {
+    background: #041351;
+	color: #1f5db7;
+}
+.icon {
+	display: block;
+	height: 110px;
+	box-sizing: inherit;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.icon-akrep {
+	background-image: url(../image/icon/akrep.png);
+}
+.icon-aslan {
+	background-image: url(../image/icon/aslan.png);
+}
+.icon-balik {
+	background-image: url(../image/icon/balik.png);
+}
+.icon-basak {
+	background-image: url(../image/icon/basak.png);
+}
+.icon-boga {
+	background-image: url(../image/icon/boga.png);
+}
+.icon-ikizler {
+	background-image: url(../image/icon/ikizler.png);
+}
+.icon-koc {
+	background-image: url(../image/icon/koc.png);
+}
+.icon-kova {
+	background-image: url(../image/icon/kova.png);
+}
+.icon-oglak {
+	background-image: url(../image/icon/oglak.png);
+}
+.icon-terazi {
+	background-image: url(../image/icon/terazi.png);
+}
+.icon-yay {
+	background-image: url(../image/icon/yay.png);
+}
+.icon-yengec {
+	background-image: url(../image/icon/yengec.png);
+}
